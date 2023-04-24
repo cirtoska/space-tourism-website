@@ -1,0 +1,46 @@
+.logo {
+  margin: 3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > ul {
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(5.3px);
+-webkit-backdrop-filter: blur(5.3px);
+  display: flex;
+  gap: 2rem;
+  justify-content: end;
+  list-style-type: none;
+  padding: 2rem 9rem;
+}
+.nav-link > a:hover{
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #979797;
+}
+
+.nav-num {
+  font-weight: bold;
+  padding-right: 0.7rem;
+}
+
+.active {
+  padding-bottom: 2rem;
+  border-bottom: 3px solid var(--secondary-clr);
+}
+
+@media screen and (max-width: 768px) {
+  .nav-num {
+    display: none;
+  }
+  nav > ul {
+      padding: 2rem;
+    }
+}
+@media screen and (max-width: 450px) {
+ 
+}

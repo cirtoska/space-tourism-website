@@ -15,6 +15,7 @@ body, h1, h2, h3, h4, h5, p, figure, picture {
 body {
   line-height: 1.5;
   min-height: 100vh;
+  background-color: #0B0D17;
 }
 
 img, picture {
@@ -43,6 +44,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 150px;
+  color: var(--secondary-clr);
 }
 h2 {
   font-size: 100px;
@@ -55,13 +57,15 @@ h4 {
 }
 
 h5, .subheading-1, .subheading-2, .nav-link {
-  font-family: 'Barlow Concrete', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   text-transform: uppercase;
+
 }
 
 h5 {
   font-size: 25px;
   letter-spacing: 4.75px;
+  color: var(--primary-clr);
 }
 .subheading-1 {
   font-size: 28px;
@@ -74,8 +78,14 @@ h5 {
   font-size: 16px;
   letter-spacing: 2.7px;
   text-decoration: none;
+  color: var(--secondary-clr);
 }
 
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  color: var(--primary-clr);
+}
 /* ------------------- */
 /* Utility classes     */
 /* ------------------- */
