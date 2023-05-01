@@ -1,0 +1,15 @@
+.destination {
+  background-image: url(../../assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h5 {
+  color: var(--secondary-clr);
+}
+.menu-num {
+  color: #999;
+}

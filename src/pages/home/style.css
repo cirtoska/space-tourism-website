@@ -2,6 +2,9 @@
   background-image: url(../../assets/home/background-home-desktop.jpg);
   background-size: cover;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main-home.flex {
@@ -9,6 +12,7 @@
   align-items: end;
   align-content: center;
   justify-content: space-between;
+  /* height: 50vh; */
 }
 
 .hero-text {
